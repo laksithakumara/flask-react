@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Laksitha Kumara via [laksithakumara@gmail.com](mailto:laksithakumara@gmail.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Flask-React, please send an e-mail to Laksitha Kumara via [laksithakumara@gmail.com](mailto:laksithakumara@gmail.com). All security vulnerabilities will be promptly addressed.
 
 
 ## License
