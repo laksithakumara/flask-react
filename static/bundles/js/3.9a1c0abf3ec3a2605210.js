@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{Qjis:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),o=t.n(a),i=t("55Ip");n.default=function(){return o.a.createElement("div",null,o.a.createElement("h1",null,"Homepage page"),o.a.createElement(i.b,{to:"/login"},"Go Login page"))}}}]);

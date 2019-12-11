@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="canonical" href="http://eastglint.com/" />
+    <meta name='language' content='en-us'>
+    {% block meta %}<meta name="author" content="EastGlint" />{% endblock %}
+    <title>{% block title %}Flask React{% endblock %}</title>
+    {% block head %}{% endblock %}
+</head>
+
+<body id="body-wrapper" class="{% block body_class %}{% endblock %}">
+    {% block content %}
+    <div id="root">
+    </div>
+    {% endblock %}
+    {{ render_bundle('vendor') | safe }}
+    {{ render_bundle('app') | safe }}
+    {% block footer %}{% endblock %}
+</body>
+
+</html>
